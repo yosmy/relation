@@ -1,0 +1,29 @@
+{
+    "name": "yosmy/relation",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmany Garcia",
+            "email": "yosmanyga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
